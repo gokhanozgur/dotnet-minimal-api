@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "FpnjeUUkoxmEztr15Qvj5VIJPk/01PX1BW4/QELJxa1s77nFN6XZ7E66+NAzHE9d1YNz8Oa1wZGiNQ/6yNm78g==",
+  "success": true,
+  "projectFilePath": "/Users/gokhanozgur/Documents/Personal/Project/netcore/MinimalApi/MinimalApi.API/MinimalApi.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/gokhanozgur/.nuget/packages/microsoft.aspnetcore.openapi/7.0.16/microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
