@@ -5,7 +5,7 @@ namespace MinimalApi.Persistence;
 
 public class SocialDbContext:DbContext
 {
-    public SocialDbContext(DbContextOptions opt):base(opt)
+    public SocialDbContext(DbContextOptions<SocialDbContext> opt):base(opt)
     {
         
     }

@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using MinimalApi.Application.Abstactions;
+using MinimalApi.Persistence;
+using MinimalApi.Persistence.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var defaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<SocialDbContext>(options => options.UseSqlServer(defaultConnectionString));
+
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 // Add services to the container.
 
