@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  minimal-api-sql-server:
+    image: mcr.microsoft.com/azure-sql-edge
+    restart: always
+    environment:
+      MSSQL_SA_PASSWORD: "123456"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - minimal-api-sql-server:/var/opt/mssql
+volumes:
+    minimal-api-sql-server:
