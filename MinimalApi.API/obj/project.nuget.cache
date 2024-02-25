@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "RV5IYNNxQPEU9mZO1r+htV6lIOFJ7qA8yC27yWcPfp68K1oNcAMk9kcugQLPpEdcM2C/V3YTgzDCsGlnLxt9UQ==",
+  "dgSpecHash": "MgrgqJJgRgT7Z6h2BnEIHev0iPi579ywTZvutaeL79yWSVkC77CM4rq5M8Oktee3OJyJE8D/f0Wh5FRAeQQrwg==",
   "success": true,
   "projectFilePath": "/Users/gokhanozgur/Documents/Personal/Project/netcore/MinimalApi/MinimalApi.API/MinimalApi.API.csproj",
   "expectedPackageFiles": [
     "/Users/gokhanozgur/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.aspnetcore.openapi/7.0.16/microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/gokhanozgur/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

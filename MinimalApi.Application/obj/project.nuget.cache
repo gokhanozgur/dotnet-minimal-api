@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "scWm9T7ngbqqbktxFlftBUiHX3NnAapR2pyvoE5nU6ufG5YhUTaOz95pehregIvSWLoBTUGwE3EDv8Rv2z8HHA==",
+  "dgSpecHash": "wA7TVUSPBq8wRecSsGQMOiJ2eaokVVISuMM/wVi7kuWHnywJNY53YewH4jFXeKOG5EBICR9t4L2E6jv4H203uQ==",
   "success": true,
   "projectFilePath": "/Users/gokhanozgur/Documents/Personal/Project/netcore/MinimalApi/MinimalApi.Application/MinimalApi.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/gokhanozgur/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/gokhanozgur/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
