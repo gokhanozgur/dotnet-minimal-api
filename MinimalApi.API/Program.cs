@@ -1,5 +1,7 @@
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using MinimalApi.Application.Abstactions;
+using MinimalApi.Application.Posts.Commands;
 using MinimalApi.Persistence;
 using MinimalApi.Persistence.Repositories;
 
@@ -9,6 +11,8 @@ var defaultConnectionString = builder.Configuration.GetConnectionString("Default
 builder.Services.AddDbContext<SocialDbContext>(options => options.UseSqlServer(defaultConnectionString));
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+builder.Services.AddMediatR(typeof(CreatePost));
 
 // Add services to the container.
 

@@ -32,13 +32,13 @@ public class PostRepository: IPostRepository
         return post;
     }
 
-    public async Task<Post> UpdatePost(Post post, int postId)
+    public async Task<Post> UpdatePost(string postContent, int postId)
     {
         var existingPost = await _ctx.Posts.FirstOrDefaultAsync(p => p.Id == postId);
         existingPost.LastModified = DateTime.Now;
-        existingPost.Content = post.Content;
+        existingPost.Content = postContent;
         await _ctx.SaveChangesAsync();
-        return post;
+        return existingPost;
     }
 
     public async Task DeletePost(int postId)
